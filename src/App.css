@@ -1,0 +1,72 @@
+.container {
+  text-align: center;
+}
+.question-card {
+  background-color: gray;
+  color: white;
+  padding: 20px;
+  margin: 0 auto;
+  width: 80%;
+  border-radius: 15px;
+}
+ul {
+  list-style: none;
+}
+li {
+  background-color: darkgray;
+  padding: 16px;
+  border: 3px solid white;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+li:hover {
+  border: 3px solid rgb(255, 156, 8); 
+  /* color:rgb(255, 156, 8) ; */
+  transition: .2ms ease-in; /* Smooth transition effect on hover */
+}
+.qustion-text {
+  color: blue;
+  font-size: 24px;
+}
+.final-results {
+  background-color: gray;
+  color: white;
+  padding: 20px;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 15px;
+}
+button {
+  background-color: red; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 24px;
+}
+.restart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 10px;
+  width: 25px;
+}
+.RestartBtn,
+.NextBtn {
+  display: flex;
+  margin: 4px;
+  /* text-align: center; */
+}
+.ActionBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
