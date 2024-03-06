@@ -16,7 +16,7 @@ export default function QestionOfMath({ restartGame,currentQustions, setCurrentQ
                 setUserAnswer(""); // Clear the user's answer after verifying
                 setCurrentQustions(currentQustions + 1);
             } else {
-                alert(`your score ${score}  thanks bro resatart over  `);
+                alert(`Your score is ${score}. Thanks, Restart over? `);
                 restartGame()
             }
         } else {
