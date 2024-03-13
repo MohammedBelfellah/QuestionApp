@@ -19,7 +19,7 @@ export default function QestionOfMath({ restartGame, currentQustions, setCurrent
                 setUserAnswer(""); // Clear the user's answer after verifying
                 setCurrentQustions(currentQustions + 1);
             } else {
-                alert(`your score is: ${score + 1} ,click OK to restart`)
+                alert(`${score + 1} out of ${MathOptions.length} correct , click OK to restart`)
                 restartGame()
             }
         } else {
